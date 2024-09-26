@@ -67,7 +67,7 @@ This will ensure that all the relevant parts of your image are considered in the
 
 6. Run the script:
    ```
-   python llama_3_2_bedrock.py
+   python llama_3_2_ocr_bedrock.py
    ```
 
 7. The script will output the model's response, which includes the analysis based on the image and text prompt.
