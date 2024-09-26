@@ -2,18 +2,15 @@
 
 This project demonstrates how to use Llama 3.2 models, specifically the 11B Instruct v1 version, through AWS Bedrock. It showcases the capabilities of these large language models in processing and analyzing images along with text prompts.
 
+It also showcases how to leverage AI Agents using AutoGen with Llama 3.2 models for various tasks
+
+- the use case i've demonstrated is to write a blog post and save it in a markdown file, [generated blog](./blog_post.md)
+
 ## Features
 
 - Utilizes AWS Bedrock to access Llama 3.2 models
 - Supports image and text input for versatile queries
 - Demonstrates OCR-like capabilities for image analysis
-
-## Prerequisites
-
-- AWS account with access to Bedrock
-- Python 3.x
-- Boto3 library
-- Proper AWS credentials configured
 
 ## Installation
 
@@ -79,6 +76,28 @@ Here's an example of the model's response to an OCR-like task:
 ![Model Response](/images/response.png)
 
 This example shows the model's ability to recognize and transcribe handwritten text from an image.
+
+## AutoGen Usage
+
+   ### Install dependencies
+
+   ```
+      pip install autogen["bedrock"]
+   ```
+
+   ### update the below keys in `.env`:
+
+   - AWS_ACCESS_KEY_ID
+   - AWS_SECRET_KEY_ID
+
+   ### Run the script
+   ```
+      python .\autogen_llama3_2.py
+   ```
+
+   Check the Generated Blog at `blog_post.md`
+
+
 
 ## Model Details
 
