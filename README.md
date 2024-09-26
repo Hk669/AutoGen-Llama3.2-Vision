@@ -19,8 +19,8 @@ This project demonstrates how to use Llama 3.2 models, specifically the 11B Inst
 
 1. Clone this repository:
    ```
-   git clone https://github.com/your-username/llama-3-2-aws-bedrock.git
-   cd llama-3-2-aws-bedrock
+   git clone https://github.com/Hk669/Llama3.2-Bedrock.git
+   cd Llama3.2-Bedrock
    ```
 
 2. Install required dependencies:
@@ -32,12 +32,6 @@ This project demonstrates how to use Llama 3.2 models, specifically the 11B Inst
    ```
    aws configure
    ```
-
-## Usage
-
-# Llama 3.2 Models using AWS Bedrock
-
-[... previous sections remain unchanged ...]
 
 ## Usage
 
