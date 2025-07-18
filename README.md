@@ -25,7 +25,7 @@ The primary use case demonstrated here involves building an AI agent that genera
 
 2. Install the required dependencies:
    ```bash
-   pip install boto3 autogen["bedrock"] "pyautogen[lmm]>=0.2.17"
+   pip install boto3 autogen["bedrock"] "ag2[lmm]>=0.2.17"
    ```
 
 3. Configure your AWS credentials:
